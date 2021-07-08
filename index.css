@@ -1,7 +1,88 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Gerais */
+
+h1 {
+    background-color: rgb(255, 122, 0);
+}
+
+h2 {
+    color: rgb(250, 124, 6);
+}
+
+body {
+    display: flex;
+    width: 100%;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main p,
+main li {
+    font-size: 1.3em;
+}
+
+main h2 {
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main>div {
+    /*     border: 1px solid black; */
+}
+
+
+/* produtos servicos */
+
+.servico1 {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.conta-digital {
+    margin: 5vw;
+}
+
+#cartao-credito {
+    background-color: white;
+}
+
+
+/* nossa historia */
+
+.servico2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.nossa-historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 2vh;
+    padding-top: 4vh;
+}
+
+.img-main {
+    width: 40vw;
+    height: 60vh;
 }
 
 
@@ -72,3 +153,4 @@
 
 
  
+
