@@ -108,18 +108,12 @@ footer h3 {
 
 /* Gerais */
 
-h1 {
-    background-color: rgb(255, 122, 0);
-}
 
 h2 {
     color: rgb(250, 124, 6);
 }
 
-body {
-    display: flex;
-    width: 100%;
-}
+
 
 main {
     flex-grow: 1;
@@ -199,7 +193,9 @@ main>div {
   color: white;
 }
 #base-lading{
-  position: absolute;top:380px;left: 35%;
+  display: flex;
+  justify-content: center;
+  position:  relative; top: 350px;
 }
   
 
@@ -249,6 +245,7 @@ main>div {
 .rede-sociais img{
   margin: 6px;
 }
+
 
 
 
