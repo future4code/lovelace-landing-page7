@@ -85,19 +85,71 @@ main>div {
     height: 60vh;
 }
 
+
+
 /* ladding-page */
 .apresentacao{
   background-image: url(./img/f4bank-logo.png);
-   height: 500px;
+  width: 100%;
+  height: 400px;
   background-repeat: repeat;
- 
+  display: flex;
+  justify-content: center;
+  color: white;
 }
+#base-lading{
+  position: absolute;top:380px;left: 35%;
+}
+  
+
+
+
 
 /* Quem somos nós */
 
 .quem-somos{
-  
+  text-align: center;
+  align-items: center;
 }
+
+.quem-somos h1 {
+  color: rgb(250, 124, 6);
+}
+.quem-somos h2 {
+  color: rgb(250, 124, 6);
+}
+
+
+.div-seguir{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconeGeral{
+  width: 40px;
+  height: 40px;
+}
+.iconeGeral:hover{
+  filter: grayscale(100%);
+}
+
+.iconeCoracao{
+  width: 40px;
+  height: 40px;
+}
+
+.rede-sociais{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.rede-sociais img{
+  margin: 6px;
+}
+
+
 
 
  
