@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ladding-page */
+.apresentacao{
+  background-image: url(./img/f4bank-logo.png);
+   height: 500px;
+  background-repeat: repeat;
+ 
+}
+
+/* Quem somos nós */
+
+.quem-somos{
+  
+}
+
+
+ 
