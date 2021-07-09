@@ -1,6 +1,8 @@
+
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 
 * {
     margin: 0;
@@ -66,6 +68,7 @@ nav a::before {
     height: 5px;
     width: 100%;
 }
+
 
 
 /* Gerais */
@@ -217,24 +220,75 @@ li {
 }
 
 footer {
-    background: #ff914d;
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-}
 
-footer h3 {
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-    font-style: comic;
-}
-
-.logo-footer {
-    height: 90px;
-    float: left;
-}
+  background: #ff914d;
+  
+  }
+  
+  footer::after {
+  
+  content: '';
+  display: table;
+  clear: both;
+  
+  }
+  
+  .mod-footer {
+  
+  width: 80%;
+  margin: 0 auto;
+  
+  }
+  
+  .logo {
+  
+  height: 90px;
+  float: left;
+  
+  }
+  
+  
+  
+  nav-footer{
+  
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  
+  }
+  
+  footer ul {
+  
+      margin: 0;
+      padding:0;
+      list-style: none;
+  }
+  
+  nav-footer li {
+      display: inline-block;
+      margin-left: 70px;
+      padding-top: 25px;
+      position: relative;
+      
+  }
+  
+  nav-footer a {
+      color: whitesmoke;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 20px;
+  }
+  
+  nav-footer a:hover {
+  color: navy; 
+  }
+  
+  nav-footer a::before {
+      content:'';
+      display: block;
+      height: 5px;
+      width: 100%;
+  }
 
 .rede-sociais img {
     margin: 6px;
