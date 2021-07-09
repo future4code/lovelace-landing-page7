@@ -260,4 +260,11 @@ li {
     .imagem-cartao {
         order: 2;
     }
+    .apresentacao {
+        background-image: url(./img/f4bank-logo.png);
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        background-size: contain;
+    }
 }
