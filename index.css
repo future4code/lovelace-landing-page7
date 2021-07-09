@@ -1,45 +1,32 @@
 header {
-
-background: #ff914d;
-
+    background: #ff914d;
 }
 
 header::after {
-
-content: '';
-display: table;
-clear: both;
-
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .mode-header {
-
-width: 80%;
-margin: 0 auto;
-
+    width: 80%;
+    margin: 0 auto;
 }
 
 .logo {
-
-height: 90px;
-float: left;
-
+    height: 90px;
+    float: left;
 }
 
-
-
-nav{
-
-display: flex;
-justify-content: center;
-justify-items: center;
-
+nav {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 
 nav ul {
-
     margin: 0;
-    padding:0;
+    padding: 0;
     list-style: none;
 }
 
@@ -48,7 +35,6 @@ nav li {
     margin-left: 70px;
     padding-top: 25px;
     position: relative;
-    
 }
 
 nav a {
@@ -59,44 +45,34 @@ nav a {
 }
 
 nav a:hover {
-color: navy; 
+    color: navy;
 }
 
 nav a::before {
-    content:'';
+    content: '';
     display: block;
     height: 5px;
     width: 100%;
 }
 
-
-
 footer {
-
     background: #ff914d;
     color: whitesmoke;
     display: flex;
     justify-content: center;
     margin-top: auto;
-    
 }
 
 footer h3 {
-   
     display: flex;
     justify-content: center;
     margin-top: auto;
     font-style: comic;
-
-   
-
 }
 
 .logo-footer {
-
     height: 90px;
     float: left;
-    
 }
 
 * {
@@ -108,12 +84,9 @@ footer h3 {
 
 /* Gerais */
 
-
 h2 {
     color: rgb(250, 124, 6);
 }
-
-
 
 main {
     flex-grow: 1;
@@ -151,6 +124,10 @@ main>div {
     margin: 5vw;
 }
 
+li {
+    list-style-type: none;
+}
+
 #cartao-credito {
     background-color: white;
 }
@@ -180,75 +157,107 @@ main>div {
     height: 60vh;
 }
 
+#img-predio {
+    width: 60vw;
+}
+
+#historia-empresa {
+    margin: 2vh;
+}
 
 
 /* ladding-page */
-.apresentacao{
-  background-image: url(./img/f4bank-logo.png);
-  width: 100%;
-  height: 400px;
-  background-repeat: repeat;
-  display: flex;
-  justify-content: center;
-  color: white;
-}
-#base-lading{
-  display: flex;
-  justify-content: center;
-  position:  relative; top: 350px;
-}
-  
 
+.apresentacao {
+    background-image: url(./img/f4bank-logo.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
 
+#base-lading {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 350px;
+}
 
 
 /* Quem somos nós */
 
-.quem-somos{
-  text-align: center;
-  align-items: center;
+.quem-somos {
+    text-align: center;
+    align-items: center;
 }
 
 .quem-somos h1 {
-  color: rgb(250, 124, 6);
+    color: rgb(250, 124, 6);
 }
+
 .quem-somos h2 {
-  color: rgb(250, 124, 6);
+    color: rgb(250, 124, 6);
+}
+
+.div-seguir {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconeGeral {
+    width: 40px;
+    height: 40px;
+}
+
+.iconeGeral:hover {
+    border: 10px solid rgb(255, 255, 112);
+    border-radius: 50%;
+}
+
+.iconeCoracao {
+    width: 40px;
+    height: 40px;
+}
+
+.rede-sociais {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.rede-sociais img {
+    margin: 6px;
 }
 
 
-.div-seguir{
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+/* breakpoint */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .servico1,
+    .servico2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .conta-digital {
+        width: 80vw;
+    }
+    .img-main {
+        width: 80vw;
+        height: 50vh;
+    }
+    .nossa-historia {
+        width: 80vw;
+        margin: 5vh;
+    }
+    #img-predio {
+        width: 80vw;
+        height: 50vh;
+    }
+    .imagem-cartao {
+        order: 2;
+    }
 }
-
-.iconeGeral{
-  width: 40px;
-  height: 40px;
-}
-.iconeGeral:hover{
-  filter: grayscale(100%);
-}
-
-.iconeCoracao{
-  width: 40px;
-  height: 40px;
-}
-
-.rede-sociais{
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-.rede-sociais img{
-  margin: 6px;
-}
-
-
-
-
-
- 
-
