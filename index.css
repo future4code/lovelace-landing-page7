@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
 
 background: #ff914d;
@@ -69,41 +75,80 @@ nav a::before {
     width: 100%;
 }
 
-
-
 footer {
 
-    background: #ff914d;
-    color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-    
-}
+  background: #ff914d;
+  
+  }
+  
+  footer::after {
+  
+  content: '';
+  display: table;
+  clear: both;
+  
+  }
+  
+  .mod-footer {
+  
+  width: 80%;
+  margin: 0 auto;
+  
+  }
+  
+  .logo {
+  
+  height: 90px;
+  float: left;
+  
+  }
+  
+  
+  
+  nav-footer{
+  
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  
+  }
+  
+  footer ul {
+  
+      margin: 0;
+      padding:0;
+      list-style: none;
+  }
+  
+  nav-footer li {
+      display: inline-block;
+      margin-left: 70px;
+      padding-top: 25px;
+      position: relative;
+      
+  }
+  
+  nav-footer a {
+      color: whitesmoke;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 20px;
+  }
+  
+  nav-footer a:hover {
+  color: navy; 
+  }
+  
+  nav-footer a::before {
+      content:'';
+      display: block;
+      height: 5px;
+      width: 100%;
+  }
 
-footer h3 {
-   
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-    font-style: comic;
 
-   
 
-}
 
-.logo-footer {
-
-    height: 90px;
-    float: left;
-    
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 
 /* Gerais */
